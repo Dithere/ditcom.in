@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Poppins',sans-serif;
+}
+#all{
+    display: flex;
+}
+body{
+    background-color: black;
+    color: antiquewhite;
+    background-image: url("black-background-04-coolbackgrounds.png");
+    backdrop-filter: blur(2px);
+}
+#name2{
+    color: rgb(225, 46, 5);
+    text-shadow: 0 0 30px rgb(225, 46, 5);
+}
+#name{
+    font-weight: 550;
+    padding: 20px;
+    font-size: 30px;
+}
+#container{
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
+#container a{
+    color: antiquewhite;
+    position: relative;
+    text-decoration: none;
+    font-weight: 550;
+    
+}
+#container a::before{
+    position: absolute;
+    content: "";
+    background-color: rgb(225, 46, 5);
+    width: 100%;
+    height: 3px;
+    bottom: 0.1px;
+    
+}
+#container a:hover{
+    color: rgb(225, 46, 5);
+    
+    transition-duration: 0.2s;
+}
+#tall{
+    margin-top: 120px;
+    display: flex;
+}
+img{
+    border-radius: 200px;
+    height: 300px;
+    box-shadow: 0 0 50px rgb(225, 46, 5);
+    opacity: 90%;
+}
+@keyframes typing {
+    0%{color: aliceblue;}
+    50%{color: rgb(225, 46, 5);}
+    100%{color: aliceblue;}
+}
+@keyframes typing2 {
+    0%{color: rgb(225, 46, 5);}
+    50%{color: aliceblue;}
+    100%{color: rgb(225, 46, 5);}
+}
+#dit{
+    color: rgb(225, 46, 5);
+    /* animation-name: typing;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: 1; */
+    
+    /* transition-duration: 5s; */
+    
+}
+
+button{
+    border: solid;
+    border-color: rgb(225, 46, 5);
+    background-color: black;
+    color: rgb(225, 46, 5);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size: 29px;
+    width: 120px;
+    font-weight: 550;
+    opacity: 90%;
+    /* margin-left: 20px; */
+}
+button:hover{
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(225, 46, 5);
+    color: rgb(0, 0, 0);
+    width: 150px;
+    transition-duration: 0.4s;
+
+
+}
+#jgh{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    text-align: center;
+}
+#name{
+    animation-name: typing;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+#name span{
+    animation-name: typing2;
+    animation-timing-function: linear;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+img:hover{
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+footer{
+    padding-top: 130px;
+    background-color: rgba(0, 0, 0, 0.362);
+    width: 100%;
+}
+.gh{
+    margin: 40px;
+}
+#car{
+
+}
+@media(max-width: 1193px){
+    .gh{
+        margin: 20px;
+    }
+    #tall{
+        margin-top: 50px;
+        display: flex;
+    }
+    button{
+        margin-left: 500px;
+    }
+}
+@media(max-width: 992px){
+    #name{
+        font-weight: 550;
+        padding: 10px;
+        font-size: 18px;
+    }
+    #container{
+        padding: 10px;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .gh{
+        margin: 2px;
+    }
+    #kid{
+        align-items: center;
+    }
+}
+@media(max-width: 489px){
+    #name{
+        font-weight: 550;
+        padding: 10px;
+        font-size: 13px;
+    }
+    #container{
+        padding: 10px;
+        font-size: 13px;
+        text-decoration: none;
+    }
+    .gh{
+        margin: 1px;
+    }
+    #kid{
+        padding-right: 200px;
+    }
+    img{
+        height: 200px;
+    }
+    #all{
+        justify-content: center;
+        align-items: center;
+
+    }
+    button{
+        margin-left: 150px;
+    }
+}
+.btn{
+    font-size: large;
+    margin-left: 00px;
+    height: 40px;
+}
