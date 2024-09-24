@@ -44,7 +44,7 @@ body{
 }
 #container a:hover{
     color: rgb(225, 46, 5);
-    
+    font-size: 28px;
     transition-duration: 0.2s;
 }
 #tall{
